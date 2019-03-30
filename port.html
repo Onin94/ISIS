@@ -1,0 +1,191 @@
+<html><head>
+  
+  
+
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  
+
+<style type="text/css">.component.svg-text svg {
+  position: relative;
+}
+.component.svg-text svg text {
+  text-anchor: middle;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Proxima Nova', 'Helvetica', sans-serif;
+  letter-spacing: 5px;
+}
+</style><style type="text/css">.component.canvas-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 60;
+}
+.component.canvas-wrap canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0) !important;
+}
+.component.canvas-wrap img {
+  display: none;
+}
+</style><style type="text/css">.slider-dashes {
+  display: inline-block;
+}
+.slider-dashes .dash {
+  display: inline-block;
+  width: 50px;
+  margin: 0 5px;
+  cursor: pointer;
+  position: relative;
+}
+.slider-dashes .dash .dash-wrap {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+}
+.slider-dashes .dash span.dash-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.slider-dashes .dash span.dash-active {
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  transform: translate3d(-100%, 0, 0);
+}
+</style></head>
+<body style="cursor: pointer;">
+<style>
+  body, html {
+    padding: 0;
+    margin: 0;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url('/fonts/ProximaNova/ProximaNova-Light.otf');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url('/fonts/ProximaNova/ProximaNova-Regular.otf');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Proxima Nova";
+    src: url('/fonts/ProximaNova/ProximaNova-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: "Freight Display Pro";
+    src: url('/fonts/FreightDisplayPro/Freight-Display-Pro-Medium.otf');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Freight Display Pro";
+    src: url('/fonts/FreightDisplayPro/Freight-Display-Pro-Semibold.otf');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Freight Display Pro";
+    src: url('/fonts/FreightDisplayPro/Freight-Display-Pro-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+
+</style>
+<div id="container"><div data-reactroot="" class="component app"><div class="app-desktop"><div class="component loader" style="visibility: hidden; opacity: 0;"><p class="name" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, -40);">Cédric Pereira</p><canvas id="loader" width="1920" height="974" style="-webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><div class="component bg-line" style="background-color: rgb(237, 215, 223);"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span><span class="line line-4"></span></div><div class="wrap-loader" style="visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 40);"><p class="loader" style="color: rgb(197, 129, 154);">100%</p><p class="legend">Loading</p></div></div><div><div></div></div><div><div class="component home" style="visibility: inherit; opacity: 1;"><div id="global-container"><div class="component header"><div class="component about"><span class="mask" style="color: rgb(255, 243, 233);"></span><span class="layer" style="color: rgb(254, 214, 182);"></span><div class="container no-pa"><div class="about-details"><div class="flex-wrap"><div class="name"><span class="label">My name is</span><h2>Cédric Pereira</h2></div><ul class="links"><li class="link-mail"><p class="mail"><span>Email</span><p class="mail-choice"><span>Copy email to clipboard</span><!-- react-text: 67 --> <!-- /react-text --><span class="or">or</span><!-- react-text: 69 --> <!-- /react-text --><a href="mailto:contact@cedricpereira.com" title="Contact me by email">Open mail app</a></p><p class="success">Copied</p></p></li><li><a href="https://www.linkedin.com/in/pereiracedric/en/" target="_blank" title="Contact me on Linkedin">Linkedin</a></li><li><a href="https://twitter.com/cedpra" target="_blank" title="Follow me on Twitter">Twitter</a></li><li><a href="https://www.behance.net/cedricpereira" target="_blank" title="Follow my work on Behance">Behance</a></li><li><a href="https://dribbble.com/cedricpereira" title="Follow my work on Dribbble" target="_blank">Dribbble</a></li></ul><div class="dev"><span class="label">- Code</span><a href="http://wsevolojsky.fr/" target="_blank" title="Serge Wsevolojsky's website">Serge Wsevolojsky</a></div></div></div><div class="about-description" style="color: rgb(195, 130, 72);"><div><p class="present"><!-- react-text: 86 -->I am Paris based interactive designer and currently a fifth year student at <!-- /react-text --><a href="https://www.hetic.net" title="école multimédia, web HETIC Paris " target="_blank"><span class="border"></span><!-- react-text: 89 --> HETIC.<!-- /react-text --></a></p><p class="past"><!-- react-text: 91 -->Product Designer at <!-- /react-text --><a href="https://www.6play.fr/" rel="nofollow" title="M6 Play's website" target="_blank">M6</a><!-- react-text: 93 --> in Paris.<!-- /react-text --></p></div><p class="futur">I am looking for a full-time position starting in or near to January 2019.</p></div></div><div class="close-cta"><p><span class="cross"><span></span><span></span></span><span class="text">close</span></p></div></div><div class="me" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><h1>Cédric Pereira</h1></div><p class="about-cta" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span>About</span></p></div><div class="main"><div class="component projects"><div class="project-container" style="bottom: 286px; transform: matrix(1, 0, 0, 1, -2905.71, 0); visibility: inherit; opacity: 1;"><div class="component project" style="left: 0px;"><div class="wrap-title" style="visibility: inherit; opacity: 1;"><div id="draw0" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1001" width="571.4285714285714" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1002"><mask id="SvgjsMask1012"><rect id="SvgjsRect1009" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1010" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1011" dy="156" x="50%">Deezer</tspan></text></mask></defs><rect id="SvgjsRect1008" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1012&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(87, 139, 154);">Internship</h3><p class="date">Oct. 2015</p></div></div><div class="component project" style="left: 776px;"><div class="wrap-title" style="visibility: inherit; opacity: 1;"><div id="draw1" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1013" width="754.2857142857143" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1014"><mask id="SvgjsMask1019"><rect id="SvgjsRect1016" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1017" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1018" dy="156" x="50%">Personal</tspan></text></mask></defs><rect id="SvgjsRect1015" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1019&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(105, 175, 137);">Exploration</h3><p class="date">2015 - 2017</p></div></div><div class="component project" style="left: 1784px; visibility: inherit; opacity: 0.4;"><div class="wrap-title" style="transform: matrix(1, 0, 0, 1, 0, 0); visibility: inherit; opacity: 1;"><div id="draw2" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1020" width="720" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1021"><mask id="SvgjsMask1026"><rect id="SvgjsRect1023" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1024" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1025" dy="156" x="50%">Modulab</tspan></text></mask></defs><rect id="SvgjsRect1022" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1026&quot;)"></rect></svg></div></div><div class="project-legend" style="transform: matrix(1.14286, 0, 0, 1.14286, -80, 0); top: 251px; visibility: hidden; opacity: 0;"><h3 class="context" style="color: rgb(197, 129, 154);">Website</h3><p class="date">Jan. 2017</p></div></div><div class="component project" style="left: 2660px; visibility: inherit; opacity: 1;"><div class="wrap-title" style="visibility: inherit; opacity: 1; transform: matrix(1.43, 0, 0, 1.43, 0, 0);"><div id="draw3" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1027" width="491.42857142857144" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1028"><mask id="SvgjsMask1033"><rect id="SvgjsRect1030" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1031" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1032" dy="156" x="50%">Tesla</tspan></text></mask></defs><rect id="SvgjsRect1029" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1033&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0); visibility: inherit; opacity: 1;"><h3 class="context" style="color: rgb(195, 130, 72);">Concept</h3><p class="date">May 2016</p></div></div><div class="component project" style="left: 3307px;"><div class="wrap-title" style="visibility: inherit; opacity: 1;"><div id="draw4" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1034" width="571.4285714285714" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1035"><mask id="SvgjsMask1040"><rect id="SvgjsRect1037" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1038" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1039" dy="156" x="50%">Deezer</tspan></text></mask></defs><rect id="SvgjsRect1036" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1040&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(87, 139, 154);">Internship</h3><p class="date">Oct. 2015</p></div></div><div class="component project" style="left: 4133px;"><div class="wrap-title" style="visibility: inherit; opacity: 1;"><div id="draw5" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1041" width="754.2857142857143" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1042"><mask id="SvgjsMask1047"><rect id="SvgjsRect1044" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1045" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1046" dy="156" x="50%">Personal</tspan></text></mask></defs><rect id="SvgjsRect1043" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1047&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(105, 175, 137);">Exploration</h3><p class="date">2015 - 2017</p></div></div><div class="component project" style="left: 5092px;"><div class="wrap-title" style="visibility: inherit; opacity: 1;"><div id="draw6" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1048" width="720" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1049"><mask id="SvgjsMask1054"><rect id="SvgjsRect1051" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1052" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1053" dy="156" x="50%">Modulab</tspan></text></mask></defs><rect id="SvgjsRect1050" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1054&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(197, 129, 154);">Website</h3><p class="date">Jan. 2017</p></div></div><div class="component project" style="left: 6016px;"><div class="wrap-title"><div id="draw7" class="component svg-text" style="height: 181px;"><svg id="SvgjsSvg1055" width="491.42857142857144" height="180.57142857142858" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1056"><mask id="SvgjsMask1061"><rect id="SvgjsRect1058" width="100%" height="100%" fill="#ffffff"></rect><text id="SvgjsText1059" font-family="Helvetica, Arial, sans-serif" x="50%" y="-19.22544642857143" font-size="120"><tspan id="SvgjsTspan1060" dy="156" x="50%">Tesla</tspan></text></mask></defs><rect id="SvgjsRect1057" width="100%" height="100%" fill="#ffffff" mask="url(&quot;#SvgjsMask1061&quot;)"></rect></svg></div></div><div class="project-legend" style="top: 251px; transform: matrix(1.14286, 0, 0, 1.14286, 0, 0);"><h3 class="context" style="color: rgb(195, 130, 72);">Concept</h3><p class="date">May 2016</p></div></div></div><div id="component" class="component canvas-wrap"><canvas id="canvas" width="1920" height="974" style="-webkit-user-drag: none; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas><canvas width="1920" height="974" id="physics" style="opacity: 0; width: 1920px; height: 974px; background:  0% 0% / contain rgb(15, 15, 19);"></canvas></div><div class="project-ctrl left"></div><div class="component bg-layer" style="background-color: rgb(254, 214, 182);"><span class="project-ctrl left" style="background: linear-gradient(to right, rgb(237, 215, 223), rgb(254, 214, 182));"></span><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span><span class="line line-4"></span><span class="project-ctrl right" style="background: linear-gradient(to right, rgb(254, 214, 182), rgb(186, 216, 224)); opacity: 0;"></span></div><div class="project-ctrl right"></div><div class="component slider-dashes" style="visibility: inherit; opacity: 1;"><ul class="dashes"><li class="dash" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span class="dash-wrap"><span class="dash-active" style="transform: translate(100%, 0%) matrix(1, 0, 0, 1, 0, 0);"></span><span class="dash-bg"></span></span></li><li class="dash" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span class="dash-wrap"><span class="dash-active" style="transform: matrix(1, 0, 0, 1, 0, 0);"></span><span class="dash-bg"></span></span></li><li class="dash" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span class="dash-wrap"><span class="dash-active"></span><span class="dash-bg"></span></span></li><li class="dash" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);"><span class="dash-wrap"><span class="dash-active"></span><span class="dash-bg"></span></span></li></ul></div></div></div></div></div></div></div><div class="component mobile"><h1 class="me">Cédric Pereira</h1><div class="container"><div class="wrap-img"><img src="/img/shapes-motion-mobile.gif" class="gif-mobile"><img src="/img/shapes-motion-tablet.gif" class="gif-tablet"><p>Come discover my work on desktop</p></div><div class="wrap-content"><div class="list-links"><ul><li><a href="mailto:contact@cedricpereira.com" target="_blank">Email</a></li><li><a href="https://www.linkedin.com/in/pereiracedric/en/" target="_blank">Linkedin</a></li><li><a href="https://twitter.com/pluginsplug" target="_blank">Twitter</a></li><li><a href="https://www.behance.net/cedricpereira" target="_blank">Behance</a></li><li><a href="https://dribbble.com/cedricpereira" target="_blank">Dribbble</a></li></ul></div><div class="content"><p class="present"><!-- react-text: 40 -->I am a young Paris based interactive designer and currently a fifth year student at <!-- /react-text --><a href="https://www.hetic.net" title="école multimédia, web HETIC Paris " target="_blank"><span class="border"></span><!-- react-text: 43 --> HETIC.<!-- /react-text --></a></p><p class="past"><!-- react-text: 45 -->Interactive Design Intern at <!-- /react-text --><a href="https://domanistudios.com/" rel="nofollow" title="Domani Studios's website" target="_blank">Domani Studios</a><!-- react-text: 47 --> in NYC.<!-- /react-text --></p><p class="futur">I am looking for a work/study contract from January to December 2018.</p></div></div></div></div></div></div>
+<script type="text/javascript">
+  (function (d, w) {
+    w.config = {
+      path: '/',
+      locales: ['en','fr'],
+      locale: 'en',
+      env: 'prod'
+    };
+    var s = ['/js/main.js'], js, i = 0;
+    (!('Promise' in window) || !('pushState' in history)) && s.unshift('/js/polyfill.js');
+    (function l() {
+      js = d.createElement('script');
+      js.onload = i < s.length - 1 ? l : null;
+      js.src = s[i++];
+      d.body.appendChild(js);
+    })();
+  })(document, window);
+</script><script src="/js/main.js"></script>
+
+
+<svg id="SvgjsSvg1003" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="opacity: 0; position: fixed; left: 100%; top: 100%; overflow: hidden;"><defs id="SvgjsDefs1004"></defs><polyline id="SvgjsPolyline1005" points="0,0"></polyline><path id="SvgjsPath1006" d="M0 0 "></path></svg></body></html>
