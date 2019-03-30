@@ -1,0 +1,10 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -136,7 +136,7 @@
+     </div>
+     <!-- end Preloader -->
+  
+-    <div class="container-fluid onin55">
++    <div class="container-fluid onin5">
+         <!-- box header -->
+         <header class="box-header">
+             <div class="box-logo">
