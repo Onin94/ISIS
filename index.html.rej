@@ -3,8 +3,8 @@ diff a/index.html b/index.html	(rejected hunks)
      </div>
      <!-- end Preloader -->
   
--    <div class="container-fluid onin55">
-+    <div class="container-fluid onin5">
+-    <div class="container-fluid onin5">
++    <div class="container-fluid onin55">
          <!-- box header -->
          <header class="box-header">
              <div class="box-logo">
